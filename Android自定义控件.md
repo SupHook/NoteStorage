@@ -34,5 +34,6 @@ grammar_cjkRuby: true
 **Paint.style**
 1. Style有效时，StrokeWidth用于设置描边宽度
 2. Style无效时，StrokeWidth用于设置画笔宽度
+3. 直线、点的大小至于StrokeWidth有关，与style无关
 
 
