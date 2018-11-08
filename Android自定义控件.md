@@ -36,4 +36,9 @@ grammar_cjkRuby: true
 2. Style无效时，StrokeWidth用于设置画笔宽度
 3. 直线、点的大小至于StrokeWidth有关，与style无关
 
+**矩形**
+
+根据4个点构造出矩形结构
+1. RectF保存float类型数值
+2. Rect保存int类型数值 
 
