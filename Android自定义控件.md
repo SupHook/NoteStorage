@@ -11,6 +11,7 @@ grammar_cjkRuby: true
  ### 基本图形绘制
  
 **Paint类——画笔**
+
 设置属性：粗细，颜色，透明度，字体样式等等
 
 **Canvas类——画布**
