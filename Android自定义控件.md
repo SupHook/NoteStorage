@@ -42,3 +42,5 @@ grammar_cjkRuby: true
 1. RectF保存float类型数值
 2. Rect保存int类型数值 
 
+**在onDraw()函数中不能创建变量，因为当需要重绘时就会调用onDraw()函数，所以变量会一直被重复创建，会引起频繁的程序GC**
+
